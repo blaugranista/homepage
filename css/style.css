@@ -1,0 +1,129 @@
+.html {
+box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+} 
+.body {
+    font-family: 'Rajdhani', sans-serif;
+    margin: auto;
+    background-color: #082c50;
+    max-width: 1200px;
+    line-height: 1,5;
+}
+.header {
+    text-align: center;
+    background-color:#dc3545;
+    border-radius: 20px;
+    text-shadow: 1px 2px 5px rgb(69, 69, 69);
+    box-shadow: 1px 2px 5px rgb(69,69,69);
+}
+.whiteBackground {
+    background-color: rgb(106, 163, 232);
+}
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.navigation__link {
+    text-decoration: none;
+    color:black;
+}
+.aboutMe {
+    color: #f8f9fa;
+    box-shadow: 0px 0px 10px #dc3545;
+}
+.headerTwo {
+    color: #f8f9fa;
+}
+.backgroundButton {
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(128, 128, 128, 0.531);
+}
+.mainTable {
+    border-collapse: collapse;
+    width: auto;
+}
+.mainTable__tableCell {
+    border: 2px solid rgb(144, 47, 67);
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+.caption {
+    font-weight: bold;
+    color: #f8f9fa;
+}
+.mainTable__tableHeader {
+    background-color: #FFCC00;
+    color:black;   
+    border: 2px solid rgb(144, 47, 67);
+    line-height: 1,5;
+}
+.stadium {
+    color:#f8f9fa;
+}
+.FcBAnthem {
+    color: #f8f9fa;
+}
+.stadiumGallery {
+    color: #f8f9fa;
+}
+.mainTable__tableRow:nth-child(even) {
+    background-color: #dc3545;
+}
+.mainTable__tableCell:hover {
+    background-color:#dc3545;
+}
+.tableAuthor {
+    text-align: left;
+    color: #f8f9fa;
+    font-size: 13px;
+}
+.container {
+    overflow-x: auto;
+}
+.navigation__menuItem {
+    float: left;
+    margin-left: 10px;
+    padding: 20px 20px 20px 20px;
+    background-color: #FFCC00;
+    border-radius: 20px;
+    text-shadow: 1px 2px 5px rgb(69, 69, 69);
+    box-shadow: 1px 2px 5px rgb(69,69,69);
+    list-style-type: none;
+}
+.navigation__menuItem:hover {
+    background-color: #dc3545;
+}
+.footerBottom {
+    text-align: right;
+    color: #f8f9fa;
+}
+.stadiumGallery_PhotoOne {
+    text-align: center;
+}
+.photo2 {
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.linkButton {
+    margin-left: 20px;
+    font-size: 15px;
+}
+.article {
+    box-shadow: 0px 0px 10px #dc3545;
+}
+.article__header {
+    color: #f8f9fa;
+}
+.article__paragraph {
+    color: #dc3545;
+}
+.article__paragraph--white {
+    color: #f8f9fa;
+}
