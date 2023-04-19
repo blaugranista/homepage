@@ -1,12 +1,19 @@
-let backgroundButton = document.querySelector(".backgroundButton");
-let body = document.querySelector(".body");
-let buttonName = document.querySelector(".buttonName")
-
-backgroundButton.addEventListener("click", () => {
-   body.classList.toggle("whiteBackground");
-   if (body.classList.contains("whiteBackground")) {
-buttonName.innerText = "Ciemne";
-   }else{
-    buttonName.innerText = "Jasne";
+{
+   const welcome = () => {
+      console.log("Witam wszystkich na mojej pierwszej stronie. Staram się jak mogę :-)")
    }
-});
+   welcome();
+
+   const onChangeBackgroundClick = () => {
+      const body = document.querySelector(".body");
+      const buttonName = document.querySelector(".buttonName");
+      body.classList.toggle("brightBackground");
+      buttonName.innerText = body.classList.contains("brightBackground") ? "Ciemne" : "Jasne";
+   };
+
+   const init = () => {
+      const backgroundButton = document.querySelector(".backgroundButton");
+      backgroundButton.addEventListener("click", onChangeBackgroundClick);
+   };
+   init();
+}
