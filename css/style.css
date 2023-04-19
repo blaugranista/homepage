@@ -18,7 +18,7 @@ box-sizing: border-box;
     text-shadow: 1px 2px 5px rgb(69, 69, 69);
     box-shadow: 1px 2px 5px rgb(69,69,69);
 }
-.whiteBackground {
+.brightBackground {
     background-color: rgb(106, 163, 232);
 }
 .photo {
